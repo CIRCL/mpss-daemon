@@ -1,7 +1,7 @@
-prefix = /usr
+prefix = /usr/local
 exec_prefix = $(prefix)
 includedir = $(prefix)/include/mic
-libdir = $(prefix)/lib64
+libdir = $(prefix)/lib
 sysconfdir = /etc
 
 all:
