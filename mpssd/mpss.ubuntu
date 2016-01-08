@@ -48,7 +48,7 @@ PATH="/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin"
 
 . /lib/lsb/init-functions
 
-exec=/usr/sbin/mpssd
+exec=/usr/local/sbin/mpssd
 sysfs="/sys/class/mic"
 knl_modules="mic_host mic_cosm scif vop mic_x100_dma"
 
